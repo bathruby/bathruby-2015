@@ -2196,6 +2196,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/bath-ruby-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2390,6 +2399,28 @@
 		"initialSize": 220568,
 		"inputAbbreviatedPath": "\/images\/speakers\/tom-stuart@2x.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/tom-stuart@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/digestive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10973,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/digestive@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18625,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2711,6 +2742,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/breakpoints\/768up.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/768up.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/breakpoints\/base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/breakpoints\/base.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
