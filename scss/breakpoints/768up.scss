@@ -1,0 +1,174 @@
+.wrap {
+  margin: 0 auto;
+}
+
+// Google Map
+#map-canvas {
+  height: ms(37);
+}
+
+h1, .h1 {
+  font-size: (ms(22) + ms(10));
+}
+
+// A little less padding under each box
+section#speakers .speaker {
+  margin-bottom: ms(16);
+}
+
+section#venue .sixcol,
+.ticket-box {
+  margin-bottom: 0;
+}
+
+header {
+
+  // Navigation
+  #header {
+    height: 46px;
+
+    // Logo for mobile
+    #mobile-logo {
+      max-width: 25%;
+      z-index: 20;
+      position: absolute;
+      top: 10px;
+      left: 39px;
+    }
+
+    // Mobile Nav
+    #toggle:checked {
+      & ~ nav { 
+        margin: 0;
+        padding-top: 60px;
+      }
+
+      & + .toggle:after {
+        top: 5px;
+        right: 5px;
+      }
+    }
+
+    .toggle:after {
+      padding: ms(3) ms(12);
+      margin: 10px 12px 0 0;
+    }
+
+    nav {
+      margin: 0 0 0 0;
+      padding: 60px 5% 2%;
+    }
+  }
+}
+
+// Footer
+footer {
+
+  #inner-footer {
+    .inner-wrapper {
+      padding: ms(18) 12px;
+
+      // Bath Ruby Icon
+      img.first {
+        display: block;
+        margin: ms(10) ms(20) 0 0;
+      }
+    }
+  }
+}
+
+// Home
+body.home {
+
+  // Ticket Boxes
+  section#tickets {
+    .ticket-box {
+      .price-row {
+        span.ticket-type {
+          margin-left: ms(18);
+        }
+      }
+    }
+
+    // Sold out banner
+    .ticket-box.unavailable {
+      .sold-out-banner {
+        left: -55px;
+      }
+    }
+  }
+}
+
+
+// Information Page
+body.information-page {
+
+  // Tables
+  .br-table {
+
+    // Table Header
+    .br-table-header {
+
+      // Icon
+      i {
+        margin: ms(23) ms(19) 0 ms(18);
+      }
+
+      img {
+        display: block;
+      }
+
+        // Bath Ruby Pin
+      img.br-pin {
+        display: block;
+        float: right;
+        // margin: ms(21) ms(15) 0 0;
+        margin: 0 ms(15) 0 0;
+      }
+    }
+
+    // Table Body
+    .br-table-body {
+
+      // Table Rows
+      .row {
+        font-size: ms(18);
+
+        // Stars
+        .star-rating {
+          i {
+            margin: 0 ms(6);
+            font-size: ms(18);
+          }
+        }
+      }
+    }
+  }
+
+  // Accommodation
+  section#br-accommodation {
+    .br-table {
+      .row {
+        .last {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+
+// Sponsors Page
+body.sponsors-page {
+
+  .grid-center {
+    h2 {
+      text-align: left;
+    }
+
+    // Sponsor Image
+    a img {
+      margin-top: ms(20);
+    }
+  }
+}

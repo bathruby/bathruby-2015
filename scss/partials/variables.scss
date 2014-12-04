@@ -1,0 +1,25 @@
+/* ===================
+    Colours
+   =================== */
+
+$black:           #000;
+$white:           #FFF;
+$text:            #4A4A4A;
+$subtitles:       #9B9B9B;
+$lightred:        #EE0709;
+$darkred:         #A10607;
+$lightgrey:       #F7F7F7;
+$yellow:          #FFCA3C;
+
+// Link Hover Colours
+$linkhover:       darken($lightred, 15%);
+
+/* ===============================================
+    Fonts
+   =============================================== */
+
+// 'Myriad Pro' served by Typekit: Regular - 400, Semibold - 600, Bold - 700
+$sansserif:       "myriad-pro", sans-serif;
+
+// 'FontAwesome' served locally
+$icons:           "FontAwesome";

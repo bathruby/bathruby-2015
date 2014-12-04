@@ -1,0 +1,41 @@
+/*!
+Site: Bath Ruby Conference
+Author: Jack McConnell, Voltronik
+Author URI: http://www.voltronik.co.uk/
+Version: 2015
+Tags: HTML5, CSS3 (Sass), jQuery, Responsive, Video
+*/
+
+/* ===================
+    Imports
+   =================== */
+
+// FontAwesome Path
+$fa-font-path: "../bower_components/components-font-awesome/fonts";
+@import "../bower_components/outdated-browser/outdatedbrowser/outdatedbrowser";
+@import "../bower_components/normalize-scss/normalize";
+@import "../bower_components/retina.js/src/_retina.scss";
+@import "../bower_components/components-font-awesome/scss/font-awesome";
+
+@import "partials/modular-scale";
+@import "partials/variables";
+@import "partials/mixins";
+
+@import "breakpoints/base";
+
+@media only screen and (min-width: 640px) {
+  @import "breakpoints/640up";
+}
+
+@media only screen and (min-width: 768px) {
+  @import "partials/grid";
+  @import "breakpoints/768up";
+}
+
+@media only screen and (min-width: 1024px) {
+  @import "breakpoints/1024up";
+}
+
+@media only screen and (min-width: 1140px) {
+  @import "breakpoints/1140up";
+}

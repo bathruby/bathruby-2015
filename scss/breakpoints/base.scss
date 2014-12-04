@@ -1,0 +1,874 @@
+
+/* ==========================================================================
+   Boilerplate Styles
+   ========================================================================== */
+
+html, button, input, select, textarea {
+  color: $text;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    // Tim Pietrusky advanced checkbox hack (Android <= 4.1.2)
+  -webkit-animation: bugfix infinite 1s;
+  @-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+  -webkit-backface-visibility: hidden;
+  min-height: 100%; 
+  margin: 0; 
+  padding: 0;
+  background: $white;
+  font: 400 ms(18) $sansserif;
+  line-height: ms(20);
+  // word-wrap: break-word;
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: darken($lightred, 8%);
+
+  &:hover {
+    color: $linkhover;
+  }
+}
+
+// Paragraphs
+p {
+  margin: 0 0 ms(19) 0;
+}
+
+::-moz-selection, ::selection {
+  background: rgba($lightred, 50%);
+  text-shadow: none;
+}
+
+// Responsive Images
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+// Headings
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1, .h1 {
+  font-size: ms(21);
+  line-height: ((ms(22) + ms(10)) * 1);
+  margin: 0 0 (ms(24) + ms(9));
+  color: $text;
+
+  body.code-of-conduct-page & {
+    font-size: ms(22);
+  }
+}
+
+h2, .h2 {
+  color: $text;
+
+  body.code-of-conduct-page & {
+    margin-top: ms(23);
+    text-align: left;
+    text-transform: none;
+    color: $subtitles;
+  }
+
+  body.sponsors-page & {
+      text-align: left;
+  }
+}
+
+h2.h1 {
+  margin-bottom: ms(20);
+}
+
+// Sub-heading
+h2.h3 {
+  line-height: ms(22);
+  margin-bottom: (ms(22) + ms(4));
+  text-transform: none;
+  color: $subtitles;
+}
+
+h4, .h4 {
+  font-size: ms(19);
+  margin-bottom: (ms(20) + ms(2));
+  text-transform: none;
+  color: $subtitles;
+}
+
+h5, .h5 {
+  margin: ms(17) 0;
+  text-transform: none;
+  color: $subtitles;
+}
+
+.title-ruby,
+h2.h3.title-ruby {
+  margin-top: 0;
+  color: $lightred;
+}
+
+/* ==========================================================================
+   Reuseable Styles
+   ========================================================================== */
+
+// Button, obviously
+.button {
+  position: relative;
+  display: inline-block;
+  @include border-radius(ms(24));
+  background: rgba($darkred, 0.7);
+  padding: ms(15) ms(24) ms(16);
+  font-size: ms(19);
+  font-weight: 600;
+  color: $white;
+  text-align: center;
+
+  &:hover {
+    background: $darkred;
+    color: $white;
+  }
+}
+
+// Bath Ruby Icon
+.br-icon {
+  display: block;
+  margin: (ms(19) * 3) auto (ms(19) * 4.3);
+  @include opacity(0.3);
+}
+
+header {
+
+  // Navigation
+  #header {
+
+    // Logo for mobile
+    #mobile-logo {
+      max-width: 50%;
+      z-index: 20;
+      position: absolute;
+      top: 10px;
+      left: 18px;
+    }
+
+    // Mobile Nav
+    #toggle {
+      display: none;
+
+      &:checked {
+        & ~ nav { 
+          visibility: visible;
+          @include opacity(1);
+          @include transition;
+          margin: 0;
+          padding-top: 60px;
+        }
+
+        & + .toggle:after {
+          position: absolute;
+          z-index: 15;
+          top: 5px;
+          right: 5px;
+          font: normal ms(19) $icons; 
+          content: '\f00d';
+          border: none;
+          color: $darkred;
+        }
+      }
+    }
+
+    .toggle { 
+      display: block; 
+      position: relative; 
+      cursor: pointer; 
+      -webkit-touch-callout: none; 
+      -webkit-user-select: none; 
+      user-select: none;
+
+      &:after {
+        @include border-radius;
+        border: solid 1px $lightred;
+        color: $lightred;
+        background: none;
+        padding: ms(3) ms(12);
+        font-size: ms(17);
+        content: 'Menu';
+        display: block;
+        float: right;
+        margin: 10px 0 0 0;
+      }
+    }
+
+    nav {
+      visibility: hidden;
+      @include opacity(0);
+      -webkit-transition: visibility 0s ease 0.4s, opacity 0.4s ease; 
+      -moz-transition:    visibility 0s ease 0.4s, opacity 0.4s ease;
+      -ms-transition:     visibility 0s ease 0.4s, opacity 0.4s ease;
+      -o-transition:      visibility 0s ease 0.4s, opacity 0.4s ease;
+      transition:         visibility 0s ease 0.4s, opacity 0.4s ease;
+      background-color: $white;
+      width: 100%; 
+      position: absolute; 
+      z-index: 10;
+      right: 0;
+      margin: 0 0 0 0;
+      padding: 60px 5% 2%;
+      border-bottom: solid 4px $darkred;
+
+      // Links
+      a {
+        display: block; 
+        width: 100%; 
+        padding: 2% 0;
+        margin: 10px 0;
+
+        &.active {
+          color: $lightred;
+          font-weight: bold;
+        }
+
+        &.disabled {
+          color: $subtitles;
+          cursor: default;
+        }
+
+        // Logo
+        &.nav-logo {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+article {
+  // margin-top: ms(30);
+  margin-top: ms(22);
+
+  body.home & {
+    @include border-top;
+    margin-top: 0;
+  }
+}
+
+footer {
+
+  .br-icon {
+    margin: (ms(22) * 2.7) auto;
+  }
+
+  #inner-footer {
+    background: $lightgrey;
+    font-size: ms(16);
+    line-height: ms(19);
+
+    .inner-wrapper {
+      @include clearfix;
+      padding: ms(18) 0;
+
+      // Bath Ruby Icon
+      img.first {
+        display: none;
+      }
+
+      p {
+        float: left;
+        max-width: 85%;
+        margin: 0 0 0 0;
+
+        a {
+          color: $subtitles;
+
+          &:hover {
+            color: $linkhover;
+          }
+        }
+      }
+
+      // Twitter Link
+      a.last {
+        float: right;
+        margin-top: ms(10);
+        font-size: ms(21);
+
+        &:hover {
+          color: darken($linkhover, 10%);
+        }
+      }
+    }
+  }
+}
+
+// Google Map
+#map-canvas {
+  width: 100%;
+  height: ms(34);
+  @include border-top;
+  @include border-bottom;
+
+  // Stop icons looking squify
+  .gmnoprint img {
+    max-width: none; 
+  }
+}
+
+// Boxes for Information page
+@mixin br-box {
+  @include box-shadow;
+  @include border-radius(2px);
+  border: solid 1px $text; 
+  max-width: 595px;
+  margin: (ms(22) * 1.5) auto;
+  padding: ms(20);
+}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+.wrap {
+  margin: 0 ms(18);
+}
+
+// A little padding under each box
+section#speakers .speaker, 
+section#venue .sixcol,
+.ticket-box {
+  margin-bottom: ms(21);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ==========================================================================
+   Page Styles
+   ========================================================================== */
+
+// Home Page
+body.home {
+
+  // Header
+  header {
+    position: relative;
+    background: url('../video/br-timelapse.jpg') center center no-repeat;
+    overflow: hidden;
+
+    // The logo, etc.
+    .header-elements {
+      // position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      right: 0;
+      // margin-left: ms(27);
+      // padding: (ms(19) * 5) 0;
+      padding: (ms(19) * 3.5) ms(19);
+      text-align: center;
+
+      // Date of Event
+      h3 {
+        // margin-left: -115px;
+        color: $darkred;
+        font-weight: 600;
+        font-size: ms(19);
+        text-transform: none;
+      }
+
+      // Buy Tickets Button
+      a.button {
+        // margin: ms(25) 0 0 -115px;
+        margin: ms(20) 0 0 0;
+      }
+    }
+
+    // Full-screen video
+    video {
+      display: none;
+    }
+  }
+
+  // Introduction
+  section#intro {
+
+    // Title
+    h2.h1 {
+      margin: (ms(25) + ms(15)) 0 ms(24);
+    }
+  }
+
+  // The Speakers
+  section#speakers {
+
+    // Title
+    h2.h1 {
+      margin: (ms(25) + ms(15)) 0 ms(24);
+    }
+
+    // Speaker
+    .speaker {
+      text-align: center;
+
+      // Photo
+      img {
+        border: solid ms(16) $lightgrey;
+        @include border-radius(ms(50));
+      }
+
+      // Name
+      h3 {
+        font-size: ms(21);
+        font-weight: 400;
+        margin: ms(18) 0 ms(14);
+      }
+
+      // Twitter Link
+      a {
+        font-size: ms(18);
+      }
+
+      // Text
+      p {
+        margin-top: ms(14);
+        font-size: (ms(17) + ms(5));
+        line-height: (ms(18) + ms(5));
+
+        a {
+          font-size: (ms(17) + ms(5));
+        }
+      }
+    }
+
+    .br-icon {
+      margin: (ms(19) * 2.5) auto (ms(19) * 4);
+    }
+  }
+
+  // The Venue
+  section#venue {
+
+    // Images
+    img {
+      @include border-radius;
+      @include box-shadow;
+    }
+  }
+
+  // Map
+  section#map {
+    margin: (ms(22) * 2.2) 0;
+  }
+
+  // Tickets
+  section#tickets {
+
+    #ticket-boxes {
+      position: relative;
+    }
+
+    // Ticket Box
+    .ticket-box {
+      @include box-shadow;
+      @include border-radius;
+      border: solid 1px darken($lightgrey, 20%);
+      text-align: center;
+      position: relative;
+
+      // Tickets Unavailable
+      &.unavailable {
+        @include opacity(0.25);
+        overflow: hidden;
+
+        // Sold Out Banner
+        .sold-out-banner {
+          position: absolute;
+          top: 105px;
+          left: -80px;
+          z-index: 1;
+          width: 150%;
+          background: $lightgrey;
+          @include opacity(0.95);
+          padding: ms(20) 0 ms(18);
+          transform:rotate(-38deg);
+          -ms-transform:rotate(-38deg); /* IE 9 */
+          -webkit-transform:rotate(-38deg); /* Opera, Chrome, and Safari */
+          line-height: 0;
+
+          span {
+            font-weight: bold;
+            font-size: ms(24);
+            text-transform: uppercase;
+          }
+        }
+
+        a.button {
+          cursor: default;
+
+          &:hover {
+            background: $lightred;
+          }
+        }
+      }
+
+      // Title
+      h3 {
+        background: $lightred;
+        margin: 0 0 0 0;
+        padding: ms(13);
+        font-weight: 400;
+        color: $white;
+      }
+
+      .price-row {
+        border-bottom: solid 1px darken($lightgrey, 20%);
+        padding: ms(17) ms(18) ms(17);
+        @include clearfix;
+
+        // Icon
+        i {
+          float: left;
+          width: 29px;
+          margin-top: ms(9);
+          text-align: center;
+
+          &.fa-graduation-cap {
+            margin-top: ms(11);
+          }
+        }
+
+        // Ticket Type
+        span.ticket-type {
+          float: left;
+          margin-left: ms(12);
+          text-align: left;
+        }
+
+        // Ticket Price
+        span.price {
+          float: right;
+          color: $darkred;
+        }
+      }
+
+      // Buy Tickets Button
+      a.button {
+        display: inline-block;
+        background: $lightred;
+        margin: ms(16) auto ms(17);
+        padding: ms(12) ms(18);
+        font-size: ms(18);
+        font-weight: 400;
+
+        &:hover {
+          background: darken($lightred, 7%);
+        }
+      }
+    }
+
+    // Email Sign-up
+    #email-updates {
+      margin: ms(25) 0;
+      text-align: center;
+
+      // Email Input
+      input[type="email"] {
+        max-width: 78%;
+        -webkit-appearance: none;
+        @include border-radius(50px 0 0 50px);
+        border-top: solid 1px darken($lightgrey, 30%);
+        border-right: none;
+        border-bottom: solid 1px darken($lightgrey, 30%);
+        border-left: solid 1px darken($lightgrey, 30%);
+        margin: 0 0 0 0;
+        padding: 8px 18px 9px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      // Submit
+      input[type="submit"] {
+        @include border-radius(0 50px 50px 0);
+        border-top: solid 1px darken($lightgrey, 30%);
+        border-right: solid 1px darken($lightgrey, 30%);
+        border-bottom: solid 1px darken($lightgrey, 30%);
+        border-left: none;
+        background: $white;
+        margin: 0 0 0 -7px;
+        padding: 11px 18px 11px;
+        font-family: "FontAwesome";
+        color: rgba($lightred, 0.35);
+
+        &:hover {
+          color: $lightred;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .br-icon {
+      margin: (ms(19) * 4) auto ms(19);
+    }
+  }
+
+  // Awesome Sponsors
+  section#sponsors {
+
+    // Title link
+    a {
+      &:hover {
+        h2.h3,
+        h2.h3 i {
+          color: $lightred;
+        }
+      }
+
+      h2.h3 {
+        text-transform: none;
+        color: $subtitles;
+
+        i {
+          margin-left: ms(16);
+          font-size: ms(20);
+          color: rgba($lightred, 0.75);
+        }
+      }
+    }
+
+    // Center align images
+    #sponsors-container {
+      text-align: center;
+      vertical-align: middle;
+
+      img {
+        display: inline-table;
+        margin: 0 ms(19);
+      }
+
+      #ruby-sponsors,
+      #gold-sponsors, 
+      #silver-sponsors {
+        margin-bottom: (ms(22) * 2);
+      }
+    }
+  }
+}
+
+
+// Sponsors Page
+body.sponsors-page {
+
+  article {
+    
+    // Bath Ruby Icon
+    .br-icon {
+      margin: (ms(19) * 2.5) auto;
+    }
+  }
+
+  .grid-center {
+
+    h2, h3 {
+      text-align: center;
+    }
+
+    // Sponsor Image
+    a img {
+      // margin-top: ms(20);
+      display: block; 
+      margin: ms(16) auto ms(20);
+    }
+
+    // Text
+    p {
+      font-size: ms(18);
+      line-height: ms(20);
+    }
+  }
+
+  // The Sponsors
+  .sponsor {
+    margin-bottom: ms(22);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+// Information Page
+body.information-page {
+  
+  // Travel Title
+  h1 + h2 {
+    margin-bottom: ms(21);
+  }
+
+  // Map
+  #map {
+    margin-bottom: (ms(22) * 2);
+  }
+
+  // Section Titles
+  h2.h1 {
+    margin-bottom: ms(21);
+  }
+
+  h2.h3 {
+    text-transform: uppercase;
+  }
+
+  // Travel Icons
+  .twocol {
+    text-align: center;
+
+    i.fa {
+      margin-bottom: ms(22);
+      font-size: ms(23);
+      color: $subtitles;
+    }
+  }
+
+  // Tables
+  .br-table {
+    @include br-box;
+    padding: ms(18);
+
+    // Table Header
+    .br-table-header {
+
+      // Icon
+      i {
+        float: left;
+        // margin: ms(23) ms(19) 0 ms(18);
+        margin: ms(21) ms(19) 0 ms(18);
+        font-family: $icons;
+        font-size: ms(23);
+        color: $darkred;
+        -webkit-transform: rotate(361deg);
+        -moz-transform: rotate(361deg);
+        -ms-transform: rotate(361deg);
+        -o-transform: rotate(361deg);
+        transform: rotate(361deg);
+      }
+
+      img {
+        display: none;
+      }
+
+      // Bath Ruby Pin
+      img.br-pin {
+        display: block;
+        float: right;
+        margin: ms(21) ms(15) 0 0;
+      }
+    }
+
+    // Table Body
+    .br-table-body {
+
+      // Table Rows
+      .row {
+        @include clearfix;
+        padding: ms(13) 0;
+        font-size: ms(17);
+        line-height: ms(18);
+
+        &:first-child {
+          padding-top: 0;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+
+        // Stars
+        .star-rating {
+          float: left;
+          width: 44%;
+          text-align: center;
+         
+          i {
+            display: inline-block;
+            font-size: ms(16);
+            color: $yellow;
+          }
+        }
+
+        span.first {
+          width: 38%;
+          float: left;
+        }
+
+        span.last {
+          width: 18%;
+          float: left;
+        }
+      }
+    }
+  }
+
+  section#br-planes {
+    .br-table {
+      .br-table-body {
+        .row {
+          span.last {
+            width: auto;
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  section#br-trains,
+  section#br-automobiles {
+    margin-bottom: ms(22)
+  }
+
+  // Accommodation
+  section#br-accommodation {
+
+    h2.h1 {
+      font-size: ms(20);
+    }
+
+    .br-table {
+      max-width: 690px;
+      margin: ms(22) auto (ms(22) * 1.5);
+
+      .row {
+        .last {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

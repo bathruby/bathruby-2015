@@ -1,0 +1,15 @@
+CACHE MANIFEST
+ # 2014-11-20 v1.0.1
+
+# Explicitly cached 'master entries'.
+CACHE:
+/favicon.ico
+/index.html
+css/style.css
+js/scripts.min.js
+
+# Resources that require the user to be online.
+NETWORK:
+
+# FALLBACK:
+# /offline.html

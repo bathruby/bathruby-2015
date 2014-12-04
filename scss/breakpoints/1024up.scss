@@ -1,0 +1,110 @@
+article {
+  margin-top: ms(30);
+}
+
+header {
+
+  // Navigation
+  #header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 98px;
+    background: rgba($white, 0.9);
+
+    // Logo for mobile
+    #mobile-logo,
+    #toggle,
+    .toggle { 
+      display: none;
+    }
+
+    nav {
+      visibility: visible;
+      @include opacity(1);
+      background-color: inherit;
+      position: relative; 
+      z-index: 10;
+      right: 0;
+      margin: 0 0 0 0;
+          padding: ms(15) 0;
+
+      border-bottom: none;
+
+      // Links
+      a {
+        width: auto;
+        float: left;
+        // margin: ms(17) (ms(20) + ms(5)) 0;
+        margin: ms(17) (ms(20) * 0.97) 0;
+        padding: 0 0 0 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $text;
+
+        &:hover,
+        &.active {
+          color: $lightred;
+          font-weight: bold;
+        }
+
+        &.disabled {
+          color: $subtitles;
+          cursor: default;
+        }
+
+        &.nav-schedule {
+          margin-left: 12px;
+        }
+
+        // Logo
+        &.nav-logo {
+          width: auto;
+          max-width: 25%;
+          display: block;
+          margin: ms(4) 0 ms(11);
+        }
+
+        &.nav-tickets {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}
+
+
+// Home
+body.home {
+
+  // Header
+  header {
+    .header-elements {
+      margin-left: ms(27);
+      // padding: (ms(19) * 5) 0;
+      padding: (ms(19) * 3) 0 (ms(19) * 5);
+
+      // Date of Event
+      h3 {
+        margin-left: -115px;
+      }
+
+      // Buy Tickets Button
+      a.button {
+        margin: ms(25) 0 0 -115px;
+      }
+    }
+  }
+
+  section#tickets {
+
+    // Sold out banner
+    .ticket-box.unavailable {
+      .sold-out-banner {
+        left: -75px;
+      }
+    }
+  }
+}

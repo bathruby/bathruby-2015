@@ -1,0 +1,54 @@
+/* ===================
+    Grid
+   =================== */
+
+// This grid has been constructed using the following modular scale: 
+// http://modularscale.com/scale/?px1=1&px2=18&ra1=1.414&ra2=0
+
+.onecol           { width: 6.27802%;  }
+.twocol           { width: 14.7982%;  }
+.threecol         { width: 23.31838%; }
+.fourcol          { width: 31.83856%; }
+.fivecol          { width: 40.35874%; }
+.sixcol           { width: 48.87892%; }
+.sevencol         { width: 57.3991%;  }
+.eightcol         { width: 65.91928%; }
+.ninecol          { width: 74.43946%; }
+.tencol           { width: 82.95964%; }
+.elevencol        { width: 91.47982%; }
+.twelvecol        { width: 100%;      }
+
+.wrap {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1139px;
+  @include clearfix;
+}
+
+.inner-wrapper {
+  width: 100%;
+  @include clearfix;
+  float: left;
+  padding: 0 12px;
+  position: relative;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+  margin-left: 2.24216%;
+  float: left;
+}
+
+@mixin first {
+  margin-left: 0;
+  float: left;
+}
+  .first {
+    @include first;
+  }
+
+@mixin last { 
+  float: right;
+}
+  .last {
+    @include last;
+  }

@@ -1,0 +1,55 @@
+// Nav
+header #header nav {
+  padding: 13px 5%;
+}
+
+// Home Page
+body.home {
+
+  // Header
+  header {
+    background: none;
+
+    #header nav {
+      padding: 13px 5%;
+    }
+
+    // The logo, etc.
+    .header-elements {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-left: ms(27);
+      padding: (ms(19) * 5) 0;
+      text-align: center;
+
+    }
+
+    .wrap {
+      text-align: center;
+    }
+
+    // Full-screen video
+    video {
+      display: block;
+      position: static;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      @include opacity(0.8);
+
+      // Video scaling magic
+      &.video-width { 
+        width: 100%;
+      }
+
+      &.video-height { 
+        // min-width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

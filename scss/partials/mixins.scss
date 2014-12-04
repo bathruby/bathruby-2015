@@ -1,0 +1,121 @@
+/* ===================
+    Mixins
+   =================== */
+
+// Clearfix
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+// Opacity
+@mixin opacity($trans) {
+  filter: alpha(opactiy=($trans * 100));
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$trans * 100})";
+  -moz-opacity: $trans;
+  -khtml-opacity: $trans;
+  opacity: $trans;
+}
+
+// Transition
+@mixin transition($what: all, $time: 0.3s, $transition: ease-out) {
+  -webkit-transition: $what $time $transition;
+  -moz-transition:    $what $time $transition;
+  -ms-transition:     $what $time $transition;
+  -o-transition:      $what $time $transition;
+  transition:         $what $time $transition;
+}
+
+// Border Radius
+@mixin border-radius($radius: ms(8)) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Hide mobile elements
+@mixin hidden-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin border-top {
+  border-top: solid ms(19) $lightgrey;
+}
+
+@mixin border-bottom {
+  border-bottom: solid ms(19) $lightgrey;
+}
+
+@mixin box-shadow {
+  -moz-box-shadow: 0px 1px 2px 0px rgba($black, 0.15);
+       box-shadow: 0px 1px 2px 0px rgba($black, 0.15);
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+* { 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing:    border-box; 
+  box-sizing:         border-box; 
+}
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  }
+}
+
+.visible {
+  display: block;
+  visibility: visible;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &.focusable {
+    &:active, &:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
