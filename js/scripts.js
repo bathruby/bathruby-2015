@@ -151,7 +151,8 @@ if ($('.home').length > 0) {
       // Set the map options
       var mapOptions = {
         zoom: 14,
-        center: point
+        center: point,
+        scrollwheel: false
       };
     }
 
@@ -161,7 +162,8 @@ if ($('.home').length > 0) {
       // Set the map options
       var mapOptions = {
         zoom: 15,
-        center: point
+        center: point,
+        scrollwheel: false
       };
     }
 
@@ -172,7 +174,8 @@ if ($('.home').length > 0) {
       // Set the map options
       var mapOptions = {
         zoom: 15,
-        center: point
+        center: point,
+        scrollwheel: false
       };
     }
 
