@@ -2196,15 +2196,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/images\/bath-ruby-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2355,6 +2346,182 @@
 		"initialSize": 282097,
 		"inputAbbreviatedPath": "\/images\/speakers\/sandi-metz@2x.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/sandi-metz@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/saron-yitbarek.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59130,
+		"inputAbbreviatedPath": "\/images\/speakers\/saron-yitbarek.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/saron-yitbarek.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/saron-yitbarek@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178525,
+		"inputAbbreviatedPath": "\/images\/speakers\/saron-yitbarek@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/saron-yitbarek@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/tom-stuart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67638,
+		"inputAbbreviatedPath": "\/images\/speakers\/tom-stuart.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/tom-stuart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/tom-stuart@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220568,
+		"inputAbbreviatedPath": "\/images\/speakers\/tom-stuart@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/tom-stuart@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/gold\/bytemark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8869,
+		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/gold\/bytemark@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13613,
+		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/gold\/schoolguide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16759,
+		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/gold\/schoolguide@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32300,
+		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/fundingcircle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9574,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/fundingcircle@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17182,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/gocardless.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5498,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/gocardless.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/gocardless.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/gocardless@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11816,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/gocardless@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/gocardless@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/hitfox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9222,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/hitfox.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/hitfox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/hitfox@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18822,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/hitfox@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/hitfox@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/storm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5732,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/storm.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/storm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/silver\/storm@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12844,
+		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/storm@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/storm@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2544,22 +2711,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/breakpoints\/768up.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/768up.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/breakpoints\/base.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/breakpoints\/base.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2798,7 +2949,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jack McConnell",
+"lastSavedByUser": "Simon Starr",
 "manualImportLinks": {
 	},
 "projectAttributes": {
