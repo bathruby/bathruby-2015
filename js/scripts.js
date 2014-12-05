@@ -152,7 +152,8 @@ if ($('.home').length > 0) {
       var mapOptions = {
         zoom: 14,
         center: point,
-        scrollwheel: false
+        scrollwheel: false,
+        draggable: false
       };
     }
 
@@ -258,7 +259,8 @@ if ($('.information-page').length > 0) {
       var mapOptions = {
         zoom: 14,
         center: point,
-        scrollwheel: false
+        scrollwheel: false,
+        draggable: false
       };
     }
 
