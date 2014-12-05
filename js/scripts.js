@@ -8,12 +8,13 @@ $(document).ready(function() {
 
     // Outdated Browser
     outdatedBrowser({
-        bgColor: '#EE0709',
-        color: '#ffffff',
-        lowerThan: 'transform',
-        languagePath: '../bower_components/outdated-browser/outdatedbrowser/lang/en.html'
+      bgColor: '#EE0709',
+      color: '#ffffff',
+      lowerThan: 'transform',
+      languagePath: '../bower_components/outdated-browser/outdatedbrowser/lang/en.html'
     })
 });
+
 
 // Home
 if ($('.home').length > 0) {
@@ -26,24 +27,24 @@ if ($('.home').length > 0) {
 
 
     // Scroll navigation in on scroll
-      $('#header').css("margin-top", "-98px");
-      var mustSlideDown = true;
-      var mustSlideUp = false;
-      
-      $(window).scroll(function() {
-          var diff = ($(window).scrollTop() / 5);
+    $('#header').css("margin-top", "-98px");
+    var mustSlideDown = true;
+    var mustSlideUp = false;
+    
+    $(window).scroll(function() {
+      var diff = ($(window).scrollTop() / 5);
 
-          if (diff > 40 && mustSlideDown)  {
-              $('#header').animate({'margin-top': '0px' }, {duration: 400, queue: false});
-              mustSlideDown = false;
-              mustSlideUp = true;
-          }
-          else if (diff < 40 && mustSlideUp) {
-              $('#header').animate({'margin-top': '-98px' }, {duration: 400, queue: false});
-              mustSlideUp = false;
-              mustSlideDown = true;
-          }
-      });
+      if (diff > 40 && mustSlideDown)  {
+        $('#header').animate({'margin-top': '0px' }, {duration: 400, queue: false});
+        mustSlideDown = false;
+        mustSlideUp = true;
+      }
+      else if (diff < 40 && mustSlideUp) {
+        $('#header').animate({'margin-top': '-98px' }, {duration: 400, queue: false});
+        mustSlideUp = false;
+        mustSlideDown = true;
+      }
+    });
   }
 
 
@@ -55,87 +56,86 @@ if ($('.home').length > 0) {
   });
 
 
-    // Smooth scroll to Tickets section
+  // Smooth scroll to Tickets section
   var hashTagActive = "";
     $(".scroll").click(function (event) {
-        if(hashTagActive != this.hash) {
+      if(hashTagActive != this.hash) {
 
-          // This will prevent if the user click several times the same link to freeze the scroll.
-            event.preventDefault();
+      // This will prevent if the user click several times the same link to freeze the scroll.
+      event.preventDefault();
 
-            // Calculate destination place
-            var dest = 0;
-            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
-                dest = $(document).height() - $(window).height();
-            } else {
-                dest = $(this.hash).offset().top;
-            }
+      // Calculate destination place
+      var dest = 0;
+      if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+          dest = $(document).height() - $(window).height();
+      } else {
+          dest = $(this.hash).offset().top;
+      }
 
-            // Go to destination
-            if (responsive_viewport < 768) {
-              $('html, body').animate({
-                  scrollTop: dest -30
-              }, 1000, 'swing');
-            }
+      // Go to destination
+      if (responsive_viewport < 768) {
+        $('html, body').animate({
+            scrollTop: dest -30
+        }, 1000, 'swing');
+      }
 
-            if (responsive_viewport >= 1024) {
-              $('html, body').animate({
-                  scrollTop: dest -150
-              }, 1000, 'swing');
-            }
+      if (responsive_viewport >= 1024) {
+        $('html, body').animate({
+            scrollTop: dest -150
+        }, 1000, 'swing');
+      }
 
-            else if (responsive_viewport >= 768) {
-              $('html, body').animate({
-                  scrollTop: dest -50
-              }, 1000, 'swing');
-            }            
+      else if (responsive_viewport >= 768) {
+        $('html, body').animate({
+            scrollTop: dest -50
+        }, 1000, 'swing');
+      }            
 
-            hashTagActive = this.hash;
-            $('.nav-tickets').addClass('active');
-        }
-    });
-
+      hashTagActive = this.hash;
+      $('.nav-tickets').addClass('active');
+    }
+  });
 
   // Check for #buy-tickets in URL
   if (location.hash === "#tickets") {
     $(window).load(function() {
 
       // Go to destination
-            if (responsive_viewport < 768) {
-              $("html, body").animate({ 
-          scrollTop: $('#tickets').offset().top - 30
+      if (responsive_viewport < 768) {
+        $("html, body").animate({ 
+          scrollTop: $('#tickets').offset().top + 30
         }, 1000, 'swing');
-            $('.nav-tickets').addClass('active');
-            }
+        $('.nav-tickets').addClass('active');
+      }
 
-            if (responsive_viewport >= 1024) {
-              $("html, body").animate({ 
+      if (responsive_viewport >= 1024) {
+        $("html, body").animate({ 
           scrollTop: $('#tickets').offset().top - 150
         }, 1000, 'swing');
-            $('.nav-tickets').addClass('active');
-            }
+        $('.nav-tickets').addClass('active');
+      }
 
-            else if (responsive_viewport >= 768) {
-              $("html, body").animate({ 
+      else if (responsive_viewport >= 768) {
+        $("html, body").animate({ 
           scrollTop: $('#tickets').offset().top - 50
         }, 1000, 'swing');
-            $('.nav-tickets').addClass('active');
-            }
-      });
-    }
+        $('.nav-tickets').addClass('active');
+      }
+    });
+  }
 
 
-    // Full-screen video
+  // Full-screen video
   $(window).load(function() {    
-    var theWindow        = $(window),
-        $bg              = $('video'),
-        aspectRatio      = $bg.width() / $bg.height();
+    var theWindow    = $(window),
+    $bg              = $('video'),
+    aspectRatio      = $bg.width() / $bg.height();
                       
     function resizeBg() {
       if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-          $bg.removeClass().addClass('video-height');
+        $bg.removeClass().addClass('video-height');
       } else {
-          $bg.removeClass().addClass('video-width');
+        $bg.removeClass().addClass('video-width');
       }     
     }                   
     theWindow.resize(resizeBg).trigger("resize");
@@ -315,14 +315,14 @@ if ($('.information-page').length > 0) {
 
 // Set all Speakers to have an equal height boxes
 function equalheight() {    
-    $('.equalheight').each(function(index) {
-        var maxHeight = 0;
-        $(this).children().each(function(index) {
-            if($(this).height() > maxHeight) 
-                maxHeight = $(this).height();
-        });
-        $(this).children().height(maxHeight);
-    });    
+  $('.equalheight').each(function(index) {
+    var maxHeight = 0;
+    $(this).children().each(function(index) {
+      if($(this).height() > maxHeight) 
+        maxHeight = $(this).height();
+    });
+    $(this).children().height(maxHeight);
+  });    
 }
 $(window).bind("load", equalheight);
 $(window).bind("resize", equalheight);
