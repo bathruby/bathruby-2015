@@ -66,13 +66,7 @@ footer {
 
   #inner-footer {
     .inner-wrapper {
-      padding: ms(18) 12px;
-
-      // Bath Ruby Icon
-      img.first {
-        display: block;
-        margin: ms(10) ms(20) 0 0;
-      }
+      padding: (ms(18) * 1.5) 12px;
     }
   }
 }

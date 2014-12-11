@@ -289,14 +289,14 @@ footer {
       padding: ms(18) 0;
 
       // Bath Ruby Icon
-      img.first {
+      img.br-icon-footer {
         display: none;
       }
 
-      p {
+      p.copyright {
         float: left;
         max-width: 85%;
-        margin: 0 0 0 0;
+        // margin: 0 ms(22) 0 0;
 
         a {
           color: $subtitles;
@@ -304,6 +304,27 @@ footer {
           &:hover {
             color: $linkhover;
           }
+        }
+      }
+
+      .shelter {
+        float: left;
+        // height: 54px;
+        margin: 0 0 0 0;
+        font-size: (ms(14) + ms(3));
+        line-height: ms(17);
+        vertical-align: middle;
+
+        img.first {
+          float: left;
+          margin-top: 0;
+        }
+
+        p {
+          // display: block;
+          float: left;
+          // margin: ms(15) 0 0 ms(16);
+          margin: ms(15) 0 0 0;
         }
       }
 

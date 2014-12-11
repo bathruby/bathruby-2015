@@ -76,6 +76,22 @@ header {
 }
 
 
+footer {
+  #inner-footer {
+    .inner-wrapper {
+      p.copyright {
+        margin: 0 0 0 0;
+      }
+
+      .shelter {
+        margin-top: 0;
+        margin-left: ms(22);
+      }
+    }
+  }
+}
+
+
 // Home
 body.home {
 
@@ -83,7 +99,6 @@ body.home {
   header {
     .header-elements {
       margin-left: ms(27);
-      // padding: (ms(19) * 5) 0;
       padding: (ms(19) * 3) 0 (ms(19) * 5);
 
       // Date of Event
