@@ -9,3 +9,29 @@ header {
     }
   }
 }
+
+footer {
+  #inner-footer {
+    .inner-wrapper {
+
+	    // Bath Ruby Icon
+      img.br-icon-footer {
+        display: inline-block;
+        float: left;
+        margin: ms(10) ms(20) 0 0;
+      }
+
+      p.copyright {
+        margin: 0 ms(22) 0 0;
+      }
+
+      .shelter {
+        margin-top: ms(17);
+
+        p {
+          margin: ms(15) 0 0 ms(16);
+        }
+      }
+    }
+  }
+}
