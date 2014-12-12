@@ -2196,15 +2196,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/images\/bath-ruby-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2403,94 +2394,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sponsors\/bronze\/digestive.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10973,
-		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/bronze\/digestive@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18625,
-		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive@2x.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/digestive@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/gold\/bytemark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8869,
-		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/gold\/bytemark@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13613,
-		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark@2x.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/bytemark@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/gold\/schoolguide.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16759,
-		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/gold\/schoolguide@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32300,
-		"inputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide@2x.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/gold\/schoolguide@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/silver\/fundingcircle.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9574,
-		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sponsors\/silver\/fundingcircle@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17182,
-		"inputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle@2x.png",
-		"outputAbbreviatedPath": "\/images\/sponsors\/silver\/fundingcircle@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/sponsors\/silver\/gocardless.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2645,15 +2548,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/information.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2668,15 +2562,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/js\/scripts.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/scripts.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/scripts.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/scripts.min-min.js",
@@ -2684,22 +2578,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/scss\/breakpoints\/1024up.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/breakpoints\/1024up.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/1024up.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
 		},
 	"\/scss\/breakpoints\/1140up.scss": {
 		"createSourceMap": 0,
@@ -2710,54 +2588,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/breakpoints\/1140up.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/1140up.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/breakpoints\/640up.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/breakpoints\/640up.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/640up.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/breakpoints\/768up.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/breakpoints\/768up.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/768up.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/breakpoints\/base.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/breakpoints\/base.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
