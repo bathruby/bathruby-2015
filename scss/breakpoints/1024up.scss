@@ -29,17 +29,16 @@ header {
       z-index: 10;
       right: 0;
       margin: 0 0 0 0;
-          padding: ms(15) 0;
-
+      padding: ms(15) 0;
       border-bottom: none;
 
       // Links
       a {
         width: auto;
         float: left;
-        // margin: ms(17) (ms(20) + ms(5)) 0;
-        margin: ms(17) (ms(20) * 0.97) 0;
+        margin: ms(17) ms(14) 0;
         padding: 0 0 0 0;
+        font-size: (ms(16) * 1.05);
         font-weight: 700;
         text-transform: uppercase;
         color: $text;
@@ -64,7 +63,7 @@ header {
           width: auto;
           max-width: 25%;
           display: block;
-          margin: ms(4) 0 ms(11);
+          margin: ms(4) ms(12) ms(11) ms(10);
         }
 
         &.nav-tickets {

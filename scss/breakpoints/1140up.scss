@@ -1,6 +1,10 @@
 // Nav
 header #header nav {
-  padding: 13px 5%;
+  padding: 13px 1%;
+
+  a {
+    font-size: (ms(16) * 1.19);
+  }
 }
 
 // Home Page
@@ -9,10 +13,6 @@ body.home {
   // Header
   header {
     background: none;
-
-    #header nav {
-      padding: 13px 5%;
-    }
 
     // The logo, etc.
     .header-elements {
@@ -24,7 +24,6 @@ body.home {
       margin-left: ms(27);
       padding: (ms(19) * 5) 0;
       text-align: center;
-
     }
 
     .wrap {
