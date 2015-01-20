@@ -955,7 +955,7 @@ body.schedule-page {
 
       // Icons
       i.fa {
-        line-height: 0;
+        line-height: 0.7;
 
         &.fa-cutlery {
           padding: ms(6) ms(3) 0;
@@ -965,6 +965,7 @@ body.schedule-page {
 
     // Photo
     img {
+      width: 100%;
       max-width: (ms(16) * 3.9);
       border: solid ms(9) $lightgrey;
       @include border-radius(ms(50));
