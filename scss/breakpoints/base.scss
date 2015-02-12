@@ -895,3 +895,120 @@ body.information-page {
     }
   }
 }
+
+
+// Schedule Page
+body.schedule-page {
+
+  // Vertical Line
+  #schedule-timeline {
+    position: relative;
+    max-width: 570px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 10px;
+      left: 30px;
+      height: 100%;
+      width: 2px;
+      border-left: dashed 2px $text;
+    }
+  }
+
+  // Schedule Items
+  .schedule-item {
+    position: relative;
+    z-index: 2;
+    @include clearfix;
+    max-width: 570px;
+    margin: 0 auto (ms(18) * 2);
+
+    &:last-child {
+      background: $white;
+      margin: 0 auto 0 auto;
+    }
+
+    .threecol {
+      width: 23.31838%;
+      float: left;
+    }
+
+    .ninecol {
+      width: 74.43946%;
+      float: right;
+    }
+
+    // Circle Marker on Timeline
+    .schedule-item-circle {
+      width: 25px;
+      height: 25px;
+      background: $lightgrey;
+      border: solid 2px $text;
+      @include border-radius(ms(24));
+      margin: ms(6) 0 0 (ms(17) + 1px);
+      padding: ms(10) ms(8);
+      font-size: ms(15);
+      line-height: 0;
+
+      // Icons
+      i.fa {
+        line-height: 0.7;
+
+        &.fa-cutlery {
+          padding: ms(6) ms(3) 0;
+        }
+      }
+    }
+
+    // Photo
+    img {
+      width: 100%;
+      max-width: (ms(16) * 3.9);
+      border: solid ms(9) $lightgrey;
+      @include border-radius(ms(50));
+    }
+
+    // Item Text
+    .schedule-item-details {
+      margin: 0 auto;
+
+      // Item Title
+      h2 {
+        margin: 0 0 0 0;
+        font-weight: 600;
+        text-transform: none;
+        text-align: left;
+      }
+
+      // Talk Title
+      h3 {
+        margin: ms(16) 0 0 0;
+        font-weight: 400;
+      }
+
+      p {
+        margin: ms(14) 0 0 0;
+        font-size: ms(16);
+        line-height: ms(18);
+      }
+
+      time, 
+      span.duration {
+        display: inline-block;
+        color: $lightred;
+      }
+
+      // Times
+      time {
+        margin: ms(16) 0 0 0;
+      }
+
+      // Duration
+      span.duration {}
+    }
+  }
+}

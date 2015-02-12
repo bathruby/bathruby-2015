@@ -1,12 +1,23 @@
 CACHE MANIFEST
- # 2014-11-20 v1.0.1
+# 2015-01-20 v1.0.2
 
 # Explicitly cached 'master entries'.
 CACHE:
-/favicon.ico
-/index.html
+
+/schedule.html
 css/style.css
-js/scripts.min.js
+images/bath-ruby-logo.png
+images/speakers/linda-liukas.jpg
+images/speakers/ben-orenstein.jpg
+images/speakers/saron-yitbarek.jpg
+images/speakers/katrina-owen.jpg
+images/speakers/tom-stuart.jpg
+images/speakers/sandi-metz.jpg
+bower_components/components-font-awesome/fonts/fontawesome-webfont.eot
+bower_components/components-font-awesome/fonts/fontawesome-webfont.woff
+bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf
+bower_components/components-font-awesome/fonts/fontawesome-webfont.svg
+bower_components/components-font-awesome/fonts/FontAwesome.otf
 
 # Resources that require the user to be online.
 NETWORK:
