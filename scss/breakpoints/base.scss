@@ -959,7 +959,11 @@ body.schedule-page {
         line-height: 0.7;
 
         &.fa-cutlery {
-          padding: ms(6) ms(3) 0;
+          padding: ms(5) ms(3) 0;
+        }
+
+        &.fa-bolt {
+          padding: ms(5) ms(6) 0;
         }
       }
     }
