@@ -904,7 +904,7 @@ body.schedule-page {
   #schedule-timeline {
     position: relative;
     max-width: 570px;
-    margin: 0 auto;
+    margin: ms(24) auto 0 auto;
     overflow: hidden;
 
     &:before {
@@ -959,11 +959,11 @@ body.schedule-page {
         line-height: 0.7;
 
         &.fa-cutlery {
-          padding: ms(5) ms(3) 0;
+          padding: ms(5) ms(4) 0;
         }
 
         &.fa-bolt {
-          padding: ms(5) ms(6) 0;
+          padding: ms(5) ms(8) 0;
         }
       }
     }
