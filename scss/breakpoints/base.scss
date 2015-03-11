@@ -16,8 +16,8 @@ body {
   -webkit-animation: bugfix infinite 1s;
   @-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
   -webkit-backface-visibility: hidden;
-  min-height: 100%; 
-  margin: 0; 
+  min-height: 100%;
+  margin: 0;
   padding: 0;
   background: $white;
   font: 400 ms(18) $sansserif;
@@ -177,7 +177,7 @@ header {
       display: none;
 
       &:checked {
-        & ~ nav { 
+        & ~ nav {
           visibility: visible;
           @include opacity(1);
           @include transition;
@@ -190,7 +190,7 @@ header {
           z-index: 15;
           top: 5px;
           right: 5px;
-          font: normal ms(19) $icons; 
+          font: normal ms(19) $icons;
           content: '\f00d';
           border: none;
           color: $darkred;
@@ -198,12 +198,12 @@ header {
       }
     }
 
-    .toggle { 
-      display: block; 
-      position: relative; 
-      cursor: pointer; 
-      -webkit-touch-callout: none; 
-      -webkit-user-select: none; 
+    .toggle {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
       user-select: none;
 
       &:after {
@@ -223,14 +223,14 @@ header {
     nav {
       visibility: hidden;
       @include opacity(0);
-      -webkit-transition: visibility 0s ease 0.4s, opacity 0.4s ease; 
+      -webkit-transition: visibility 0s ease 0.4s, opacity 0.4s ease;
       -moz-transition:    visibility 0s ease 0.4s, opacity 0.4s ease;
       -ms-transition:     visibility 0s ease 0.4s, opacity 0.4s ease;
       -o-transition:      visibility 0s ease 0.4s, opacity 0.4s ease;
       transition:         visibility 0s ease 0.4s, opacity 0.4s ease;
       background-color: $white;
-      width: 100%; 
-      position: absolute; 
+      width: 100%;
+      position: absolute;
       z-index: 10;
       right: 0;
       margin: 0 0 0 0;
@@ -239,8 +239,8 @@ header {
 
       // Links
       a {
-        display: block; 
-        width: 100%; 
+        display: block;
+        width: 100%;
         padding: 2% 0;
         margin: 10px 0;
 
@@ -351,7 +351,7 @@ footer {
 
   // Stop icons looking squify
   .gmnoprint img {
-    max-width: none; 
+    max-width: none;
   }
 }
 
@@ -359,7 +359,7 @@ footer {
 @mixin br-box {
   @include box-shadow;
   @include border-radius(2px);
-  border: solid 1px $text; 
+  border: solid 1px $text;
   max-width: 595px;
   margin: (ms(22) * 1.5) auto;
   padding: ms(20);
@@ -374,7 +374,7 @@ footer {
 }
 
 // A little padding under each box
-section#speakers .speaker, 
+section#speakers .speaker,
 section#venue .sixcol,
 .ticket-box {
   margin-bottom: ms(21);
@@ -708,7 +708,7 @@ body.home {
 body.sponsors-page {
 
   article {
-    
+
     // Bath Ruby Icon
     .br-icon {
       margin: (ms(19) * 2.5) auto;
@@ -724,7 +724,7 @@ body.sponsors-page {
     // Sponsor Image
     a img {
       // margin-top: ms(20);
-      display: block; 
+      display: block;
       margin: ms(16) auto ms(20);
     }
 
@@ -748,7 +748,7 @@ body.sponsors-page {
 
 // Information Page
 body.information-page {
-  
+
   // Travel Title
   h1 + h2 {
     margin-bottom: ms(21);
@@ -837,7 +837,7 @@ body.information-page {
           float: left;
           width: 44%;
           text-align: center;
-         
+
           i {
             display: inline-block;
             font-size: ms(16);
@@ -892,6 +892,22 @@ body.information-page {
           text-align: center;
         }
       }
+    }
+  }
+}
+
+// Food and drink
+section#br-food-drink {
+  .br-table {
+    max-width: 690px;
+    margin: ms(22) auto (ms(22) * 1.5);
+
+    span.first {
+      width: 48%;
+    }
+
+    .star-rating {
+      width: 34%;
     }
   }
 }
@@ -1000,7 +1016,7 @@ body.schedule-page {
         line-height: ms(18);
       }
 
-      time, 
+      time,
       span.duration {
         display: inline-block;
         color: $lightred;
