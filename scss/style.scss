@@ -10,12 +10,12 @@ Tags: HTML5, CSS3 (Sass), jQuery, Responsive, Video
     Imports
    =================== */
 
-// FontAwesome Path
-$fa-font-path: "../bower_components/components-font-awesome/fonts";
-@import "../bower_components/outdated-browser/outdatedbrowser/outdatedbrowser";
-@import "../bower_components/normalize-scss/normalize";
-@import "../bower_components/retina.js/src/_retina.scss";
-@import "../bower_components/components-font-awesome/scss/font-awesome";
+$fa-font-path: "../bower_components/components-font-awesome/fonts"; // FontAwesome Path
+@import "../bower_components/outdated-browser/outdatedbrowser/outdatedbrowser"; // Outdated Browser
+@import "../bower_components/normalize-scss/normalize"; // Normalize
+@import "../bower_components/retina.js/src/_retina.scss"; // Retina.js
+@import "../bower_components/components-font-awesome/scss/font-awesome"; // FontAwesome
+@import "../bower_components/magnific-popup/src/css/main.scss"; // Magnific Popup
 
 @import "partials/modular-scale";
 @import "partials/variables";

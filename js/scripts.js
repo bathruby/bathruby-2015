@@ -1,5 +1,6 @@
 // @codekit-prepend "../bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.js"
 // @codekit-prepend "../bower_components/retina.js/src/retina.js"
+// @codekit-prepend "../bower_components/magnific-popup/dist/jquery.magnific-popup.js"
 
 // Get viewport width
 var responsive_viewport = $(window).width();
@@ -13,6 +14,13 @@ $(document).ready(function() {
       lowerThan: 'transform',
       languagePath: '../bower_components/outdated-browser/outdatedbrowser/lang/en.html'
     })
+
+    $('.video-popup').magnificPopup({
+      items: {
+        src: '//www.youtube.com/watch?v=Em49QAJF-7Q'
+      },
+      type: 'iframe'
+    });
 });
 
 

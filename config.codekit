@@ -1500,6 +1500,191 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/min\/jquery.magnific-popup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/min\/jquery.magnific-popup.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/dist\/magnific-popup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/magnific-popup.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/magnific-popup\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/css\/_settings.scss",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/css\/_settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/css\/main.scss",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/ajax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/ajax.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/ajax-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/core.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/core-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/fastclick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/fastclick.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/fastclick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/gallery.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/iframe.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/iframe.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/iframe-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/image.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/image.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/image-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/inline.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/inline.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/inline-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/retina.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/retina.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/retina-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/zoom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/zoom.js",
+		"outputAbbreviatedPath": "\/bower_components\/magnific-popup\/src\/js\/min\/zoom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/normalize-scss\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2434,6 +2619,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sponsors\/bronze\/alphasights.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7589,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/alphasights.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/alphasights.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/alphasights@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15446,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/alphasights@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/alphasights@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sponsors\/bronze\/cronofy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2478,6 +2685,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sponsors\/bronze\/gradwell.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19521,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/gradwell.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/gradwell.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/gradwell@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25824,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/gradwell@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/gradwell@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/invest-bristol-bath.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8319,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/invest-bristol-bath.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/invest-bristol-bath.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/invest-bristol-bath@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14256,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/invest-bristol-bath@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/invest-bristol-bath@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sponsors\/bronze\/lasse-ebert.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2518,6 +2769,72 @@
 		"initialSize": 61751,
 		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/mystery-applicant@2x.png",
 		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/mystery-applicant@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/novate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12163,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/novate.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/novate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/novate@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31161,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/novate@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/novate@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/simpleweb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13442,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/simpleweb.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/simpleweb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/simpleweb@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36295,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/simpleweb@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/simpleweb@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/third-space-learning.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18039,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/third-space-learning.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/third-space-learning.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sponsors\/bronze\/third-space-learning@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35403,
+		"inputAbbreviatedPath": "\/images\/sponsors\/bronze\/third-space-learning@2x.png",
+		"outputAbbreviatedPath": "\/images\/sponsors\/bronze\/third-space-learning@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2826,27 +3143,47 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/scripts.js": {
+	"\/js\/min\/scripts-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/scripts.min.js": {
+	"\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/scripts.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/scripts.min-min.js",
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/scripts.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/js\/scripts.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/scripts.min.js",
+		"outputAbbreviatedPath": "\/js\/scripts.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/schedule.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/schedule.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/breakpoints\/1024up.scss": {
 		"createSourceMap": 0,
@@ -3132,7 +3469,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
@@ -3159,7 +3496,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Simon Starr",
+"lastSavedByUser": "Jack McConnell",
 "manualImportLinks": {
 	},
 "projectAttributes": {
