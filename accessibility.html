@@ -3,6 +3,16 @@
 <!--[if gte IE 8]><html class="no-js ie"><![endif]-->
 
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6479775-17"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-6479775-17');
+        </script>
+
         <meta charset="utf-8">
         <title>Accessibility - Bath Ruby Conference: 13th March 2015</title>
         <meta name="description" content="">
@@ -35,21 +45,23 @@
         <![endif]-->
 
         <script src="js/scripts.min.js" defer></script>
-
-        <!-- Google Analytics -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-6479775-17', 'auto');
-          ga('send', 'pageview');
-        </script>
     </head>
 
     <body class="accessibility-page">
     
+        <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #ff6; color: #000; font-size: 16px; font-family: &quot;Helvetica Neue&quot;, Ariel, Helvetica; padding: 0.5em 0; margin: 0; text-align: left; overflow: hidden; clear: both; z-index: 9999" id="old-site-notice">
+            <span style="display: inline-block; color: #000; width: 90%; padding-left: 1em; text-align: center">
+                <strong>Hello!</strong> This is the website for a past conference. Click <a href="http://latest.bathruby.uk" style="display: inline; color: #69f; font-weight: bold; text-decoration: none; border: none; background: transparent">here</a> to visit the latest one.
+            </span>
+            <a style="display: inline-block; position: absolute; right: 1em; color: #999; font-weight: bold; text-decoration: none; border: none; background: transparent" href="#" title="dismiss" id="hide-notice">×</a>
+        </div>
+
+        <script type="text/javascript">
+            $('#hide-notice').click(function() {
+                $('#old-site-notice').fadeOut();
+            })
+        </script>
+
         <!-- Outdated Browser -->
         <div id="outdated"></div>
 
